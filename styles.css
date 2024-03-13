@@ -1,0 +1,51 @@
+/* styles.css */
+
+/* Общий стиль для заголовков h1, h2, h3 и элементов span */
+h1, h2, h3, span {
+    color: #336699; /* Цвет текста */
+    font-family: Arial, sans-serif; /* Вид шрифта */
+}
+
+/* Дополнительные стили для заголовков */
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+/* Стиль для элемента span внутри первого абзаца */
+p:first-child span {
+    color: #ff0000; /* Приоритетный цвет текста для span внутри первого абзаца */
+}
+
+.element1 {
+    text-align: left; /* Выравнивание текста */
+    letter-spacing: 1px; /* Отступ между буквами */
+    font-size: 16px; /* Размер шрифта */
+    color: #990000; /* Цвет текста */
+}
+
+/* Стили для класса element2 */
+.element2 {
+    text-align: center; /* Выравнивание текста */
+    letter-spacing: 2px; /* Отступ между буквами */
+    font-size: 18px; /* Размер шрифта */
+    color: #009900; /* Цвет текста */
+}
+
+/* Стили для элемента span внутри первого абзаца */
+p:first-child span {
+    font-size: 20px; /* Размер шрифта с приоритетом */
+}
+
+body {
+    background-image: url('Boloto.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
